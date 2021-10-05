@@ -1,0 +1,188 @@
+/* cor do link ao passar o mouse em cima */
+
+#content a:hover {
+    color: #ffffff !important;
+}
+
+/* título do calendário - data do dia, semana ou mês */
+
+.fc-center h2 { 
+    color: #1a4096;
+    font-size: 22px;
+}
+
+/* forçar o titulo a quebrar linha */
+
+.fc-title {
+    white-space: normal;
+}
+
+input#title {
+    width: 97%;
+}
+
+/* tirar o scroll do calendário */
+
+.fc-scroller, .fc-day-grid-container{
+    overflow-x:hidden !important;
+    overflow-y: hidden !important;
+    height: auto !important;
+}
+
+#content table {
+    margin-bottom: 0
+}
+
+/* aumentar o height da view dia */
+
+.fc-scroller.fc-time-grid-container{
+    overflow: hidden scroll;
+    height: 1056px !important;
+}
+
+/* mostrar hora e meia nas views */
+.fc-axis.fc-time.fc-widget-content span::after {
+    content: ":00"
+}
+
+/* centralizar horário nas abas semana e dia */
+
+.fc-ltr .fc-axis {
+    text-align: center;
+}
+
+/* view dia */
+.fc-unthemed .fc-divider {
+    /*margin-top: 40px;*/
+}
+
+/* view compromissos */
+
+.fc-ltr .fc-list-heading-alt {
+    float: left !important;
+    margin-left: 10px;
+}
+
+.fc-ltr .fc-list-heading-alt::before {
+    content: "(";
+}
+
+.fc-ltr .fc-list-heading-alt::after {
+    content: ")";
+}
+
+/* Modal Form */
+
+#mask {
+    position:absolute;
+    z-index:9000;  
+    background-color:rgba(255, 255, 255, 0.7); 
+    display:none;
+}
+
+#formModal .modal-content {
+    width: 930px;
+    /*margin-top: -100px !important;*/
+    margin-left: -170px !important;
+}
+
+fieldset {
+    margin-left: 6px;
+}
+
+/* Form */
+
+div.documentByLine.voltar {
+    float: right !important;
+}
+
+#dataEventoPeriodo {
+    display: none;
+}
+
+#content form.cadastro fieldset input[type=time] {
+    padding-left: 10px;
+    border-radius: 5px !important;
+    border: 1px solid #ccc !important;
+    outline: none !important;
+	display:block !important;
+	width:70% !important;	
+}
+
+input[type="hidden"] + span.error {
+    margin-right: -45px !important; 
+    margin-top: -25px !important;
+}
+
+/* Lista de eventos */
+
+button.deletar {
+    height: 20px;
+    min-width: 30px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 04px;
+    box-shadow: 0px 1px 5px #999;
+    background: #ff3019;
+}
+
+button.editar, button.disponibilizar, button.cinza {
+    height: 20px;
+    min-width: 30px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    color: #898989;
+    border-radius: 04px;
+    box-shadow: 0px 1px 5px 0px #999;
+    background: #ffffff;
+}
+
+button.disponibilizado {
+    height: 20px;
+    min-width: 30px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 04px;
+    box-shadow: 0px 1px 5px #999;
+    background: #5cc468;
+}
+
+.editar-agenda {
+    float: right
+}
+.editar-agenda button {
+    color: #2C66CE;
+    text-transform: uppercase;
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+    font-size: 1em !important;
+    background: none;
+    border: 0;
+}
+h2#titulo {
+    color: #1a4096;
+}
+select[name=unidades] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    display: block;
+    width: 96%;
+    margin-top: 5px;
+}
+.fc-center h2:first-letter {
+    text-transform:capitalize;
+}
+#modalLogin .modal-atencao {
+    text-align: center;
+}
+
+.fc-day {
+    height: auto;
+}
+

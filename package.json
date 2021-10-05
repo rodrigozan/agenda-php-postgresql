@@ -1,0 +1,19 @@
+{
+  "name": "agenda-de-autoridades",
+  "version": "1.0.0",
+  "description": "Agenda - PHP/PostgreSQL",
+  "main": "diretor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "latest",
+    "fontawesome": "latest",
+    "jquery": "latest",
+    "qtip": "latest",
+    "fullcalendar": "latest"
+  },
+  "keywords": [],
+  "author": "Rodrigo Zandonadi",
+  "license": "ISC"
+}
